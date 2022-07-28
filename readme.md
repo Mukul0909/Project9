@@ -18,6 +18,6 @@ It was a long drawn battle with a lot of elements to be handled. Specially with 
 
 ## Live link
 
-[Project Link](https://google.com "Netlify")
+[Project Link](whimsical-creponne-a2e704.netlify.app "Netlify")
 
 
