@@ -1,0 +1,397 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  
+}
+
+body{
+  background-color: #f8f8fa;
+}
+
+header{
+  position: relative;
+  background-color: #4516fe;
+  /* border: 10px solid black; */
+
+  border-width: cover;
+  display: block;
+  top: -10px;
+  left: -10px;
+  right: 100px;
+  width: 110%;
+  height: 30em;
+  
+}
+
+.logo{
+  position: relative;
+  top: 10px;
+  left: 50px;
+}
+
+nav{
+  position: relative;
+  left: 55%;
+  color: white;
+}
+
+.nav-item{
+  position: relative;
+  top: 31px;
+  /* padding-left: 15px; */
+  margin: 0px 15px;
+  font-size: 13.8px;
+}
+
+nav>svg{
+   left: 1.2%;
+  }
+
+.nav-item-active{
+  position: relative;
+  top: 30px;
+  left: 15px;
+  background-color: white;
+  color: #4516fe;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 13.8px;
+}
+
+.header-text>img{
+  position: relative;
+  left: 3.65%;
+  top: 90px;
+}
+
+.header-text h2{
+  color: white;
+  font-weight: 500;
+  position: relative;
+  left: 3.6%;
+  top: 60px;
+  font-size: 38px;
+}
+
+.header-text p{
+  color: white;
+  position: relative;
+  top: 45px;
+  left: 3.5%;
+}
+
+.header-image{
+  position: relative;
+  left: 55%;
+  top: -220px;
+}
+
+.companies{
+  position: relative;
+  left: 3%;
+  top: 13px;
+}
+
+.company-items{
+  text-decoration: none;
+  font-family: "Righteous";
+  margin: 0px 23px;
+  font-size: 20px;
+  color: black;
+}
+
+.api-heading{
+  font-size: 30px;
+  font-weight: 900;
+  position: relative;
+  left: 5%;
+  top: 100px;
+}
+
+.cards{
+  display: flex;
+  position: relative;
+  left: 7%;
+  top: 150px;
+  /* background-color: red; */
+  height: 200px;
+  width: 100%;
+}
+
+.card-body{
+  font-size: 10px;
+  margin-top: -10%;
+
+}
+
+.cards div:nth-child(2){
+  position: relative;
+  left: 5%;
+}
+
+.cards div:nth-child(3){
+  position: relative;
+  left: 10%;
+}
+
+.cards div:nth-child(4){
+  position: relative;
+  left: 16%;
+}
+
+.cards div:nth-child(5){
+  position: relative;
+  left: 24%;
+}
+
+.card:hover{
+  background-color: white;
+  border: 2px solid none;
+  border-radius: 4px;
+  filter: drop-shadow(3px 4px 2px #f1f1f1);
+  height: 190px;
+  width: 180px;
+  /* color: #4516fe; */
+}
+
+.card>.card-head:hover{
+  color: #4516fe;
+}
+
+.card-active:hover{
+  background-color: white;
+  border: 2px solid none;
+  border-radius: 4px;
+  filter: drop-shadow(3px 4px 2px #f1f1f1);
+  height: 190px;
+  width: 180px;
+}
+
+.card-active>.card-head-active:hover{
+  color: #4516fe;
+}
+
+.blog-heading{
+  position: relative;
+  top: 250px;
+  left: 5%;
+  font-weight: bolder;
+}
+
+.blog-cards {
+  display:flex;
+  position: relative;
+  left: 5%;
+  top: 17em;
+  width: 90%;
+  height: 20em;
+  /* background-color: red;  */
+  /* border: 2px solid white; */
+}
+
+.blog-bottom{
+  position: relative;
+  left: 120%;
+  top: -100%;
+}
+
+.blog-content{
+  position: relative;
+  top: -18.30em;
+  left: 15.5em;
+  background-color: white;
+  padding: 45px 18px;
+  width: 110%;
+  border: 2px solid none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  z-index: -1;
+}
+
+.blog-cards>div:nth-child(1){
+  position: relative;
+  left: 0%;
+  margin-right: 30%;
+}
+
+.blog-content h6{
+  position:relative;
+  margin-top: -5px; 
+  color: #4516fe;
+  /* font-weight: 200; */
+  font-weight: bolder;
+}
+
+.blog-content h3{
+ margin-top: -6%;
+}
+
+.blog-content small{
+  margin-top: 0%; 
+}
+
+.blog-author{
+  position:relative;
+  top: -123%;
+  left: 73%;
+}
+
+.faq-section{
+  position: relative;
+  top: 320px;
+  left: -1%;
+  background-color: #e9edff;
+  padding-top: 5.9px;
+  width: 100%;
+  height: 20em;
+  padding-left: 100px;
+}
+
+.faq-content h2{
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 900;
+
+}
+
+.faq-content h2~h4{
+  font-size: 15px;
+}
+
+.faq-content button{
+  background-color: #5a31fc;
+  border-style: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.faq-image{
+  position: relative;
+  left: 50%;
+  top: -17em;
+}
+
+.download-section{
+  background-color: #4718fe;
+  height: 220px;
+  position: relative;
+  bottom: -35em;
+  left: -10px;
+  /* right: 100px; */
+  width: 110%;
+  /* height: 30em; */
+}
+
+.list .list-items{
+  display: flex;
+  float:left;
+  position: relative;
+  top: 34em;
+  left: -15px;
+  color: white;
+  padding: 0px 10px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.footer-left ul li:nth-child(2){
+  border-right: 1px solid #e9edff;
+}
+
+.footer-left ul li:nth-child(3){
+  border-right: 1px solid #e9edff;
+}
+.footer-left ul li:nth-child(4){
+  border-right: 1px solid #e9edff;
+}
+
+.footer-logo{
+  position: relative;
+  /* background-color: red; */
+  bottom: -25em;
+  left: 32px;
+}
+
+.logos-list{
+  list-style: none;
+  float: right;
+  display: flex;
+  position: relative;
+  top: 32.5em;
+  /* left: -10px; */
+  color: white;
+  
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.logos-list li{
+  padding: 0px 10px;
+  position: relative;
+  right: 50%;
+}
+
+.footer-right img{
+  float: right;
+  position: relative;
+  bottom: -22em;
+  right: 20%;
+  padding-left: 16px;
+}
+
+.footer-right{
+  position: relative;
+  right: -0.5em;
+}
+
+.download-content{
+  position: relative;
+  bottom: 150px;
+  left: 50px;
+}
+
+.download-email{
+  float: right;
+  position: relative;
+  right: 20%;
+  bottom: 215px;
+}
+
+.download-email button{
+  background-color: #5a31fc;
+  position: relative;
+  top: -40px;
+  left: 80%;
+  border-style: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+.download-email input{
+  background-color: #e9edff;
+  border-style: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  position: relative;
+  width: 150%;
+  display: inline-block;
+  left: -15em;
+  z-index: -1;
+}
+
+.more{
+  position: absolute;
+  right: 80px;
+  top: 72em;
+  z-index: 1;
+}
+.more p{
+  color: #4516fe;
+  font-weight: 700;
+}
