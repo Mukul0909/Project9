@@ -391,7 +391,42 @@ nav>svg{
   top: 72em;
   z-index: 1;
 }
+
 .more p{
   color: #4516fe;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 500px){
+  .imagelogo{
+    margin-left: 8em;
+  }
+
+  .nav-items{
+    display: none;
+  }
+
+  .header-image{
+    display: none;
+  }
+
+  .header-text{
+    margin: 0 3em;
+  }
+
+  .header-text img{
+    display: none;
+  }
+
+  .header-text h2{
+    font-size: 25px;
+    width: 100%;
+
+  }
+
+  .header-text p{
+    text-align: center;
+    width: 75%;
+  }
+
 }
